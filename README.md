@@ -48,13 +48,11 @@ This project is ideal as:
 ```
 Cape-Town-Tourist/
 │
-├── index.html        # Main landing page
-├── css/
-│   └── style.css     # Main stylesheet
-├── js/
-│   └── script.js     # JavaScript logic
-├── images/           # Images for blog and attractions
-└── README.md         # Project documentation
+├── index.html
+├── style.css
+├── Screenshot.png
+├── LICENSE
+└── README.md
 ```
 
 ---
