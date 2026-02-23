@@ -11,18 +11,41 @@
 <header class="navbar">
     <h1 class="logo">Cape Town</h1>
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#gallery">Gallery</a>
     </nav>
 </header>
 
-<main class="container">
+<main class="container" id="home">
+    <section class="hero">
+        <p class="eyebrow">Plan your perfect trip</p>
+        <h2>Discover the best of Cape Town</h2>
+        <p class="hero-copy">
+            From sunrise hikes to seaside sunsets, Cape Town blends world-class nature,
+            culture, and adventure into one unforgettable destination.
+        </p>
+        <a class="cta" href="#highlights">Explore highlights</a>
+    </section>
 
-    <!-- Blog Posts -->
-    <section class="posts">
+    <section class="stats" aria-label="Cape Town quick facts">
+        <article>
+            <h3>300+ km</h3>
+            <p>Scenic coastline and beaches</p>
+        </article>
+        <article>
+            <h3>4.8★</h3>
+            <p>Average traveler experience rating</p>
+        </article>
+        <article>
+            <h3>All year</h3>
+            <p>Great weather for outdoor activities</p>
+        </article>
+    </section>
+
+    <section class="posts" id="highlights">
         <article class="post">
-            <img src="https://www.worldatlas.com/upload/a4/92/e1/shutterstock-433978108.jpg" alt="Table Mountain">
+            <img src="https://www.worldatlas.com/upload/a4/92/e1/shutterstock-433978108.jpg" alt="Table Mountain above Cape Town">
             <h2>Table Mountain</h2>
             <p>
                 Table Mountain National Park stretches from Cape Town to the Cape of Good Hope.
@@ -31,7 +54,7 @@
         </article>
 
         <article class="post">
-            <img src="https://secretcapetown.co.za/wp-content/uploads/2022/04/Devils-Peak-Table-Mountain-Hike-3.png" alt="Devils Peak">
+            <img src="https://secretcapetown.co.za/wp-content/uploads/2022/04/Devils-Peak-Table-Mountain-Hike-3.png" alt="Hikers on Devil's Peak">
             <h2>Devil's Peak</h2>
             <p>
                 Devil's Peak forms part of Cape Town’s iconic skyline, standing proudly beside
@@ -40,7 +63,7 @@
         </article>
 
         <article class="post">
-            <img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSn7d3ZK-8KVyjnPiMMo6cf_awURLePiwQm82R1htmT8kwd6N6mzk7WIg4h2vlgk_WA" alt="Lions Head">
+            <img src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSn7d3ZK-8KVyjnPiMMo6cf_awURLePiwQm82R1htmT8kwd6N6mzk7WIg4h2vlgk_WA" alt="View from Lion's Head">
             <h2>Lion’s Head</h2>
             <p>
                 Lion’s Head rises between Table Mountain and Signal Hill and is a favourite hiking
@@ -49,27 +72,29 @@
         </article>
     </section>
 
-    <!-- Poster & Summary -->
     <section class="feature">
-        <img src="https://static.displate.com/857x1200/displate/2023-04-11/ca2ebfe4eeda2863dc033ea5a926bb1f.jpg" alt="Cape Town Poster">
+        <img src="https://static.displate.com/857x1200/displate/2023-04-11/ca2ebfe4eeda2863dc033ea5a926bb1f.jpg" alt="Art poster showing Cape Town scenery">
         <div class="feature-text">
             <h2>The Mother City</h2>
             <p>
                 Cape Town is known for its dramatic landscapes, rich history, and diverse culture.
                 From mountains to oceans, it offers unforgettable experiences.
             </p>
+            <p>
+                Build your itinerary around food markets, scenic drives, beach mornings,
+                and mountain viewpoints for the ultimate city break.
+            </p>
         </div>
     </section>
 
-    <!-- Gallery -->
-    <section class="gallery">
+    <section class="gallery" id="gallery">
         <h2>Gallery</h2>
         <div class="gallery-grid">
-            <img src="https://dynamic-media.tacdn.com/media/photo-o/2e/ee/20/18/caption.jpg?w=1400&h=1000&s=1">
-            <img src="https://dynamic-media.tacdn.com/media/photo-o/2e/ee/1a/01/caption.jpg?w=1400&h=1000&s=1">
-            <img src="https://dynamic-media.tacdn.com/media/photo-o/2e/ef/4d/7b/caption.jpg?w=1400&h=1000&s=1">
-            <img src="https://dynamic-media.tacdn.com/media/photo-o/2f/6f/08/55/caption.jpg?w=1400&h=1000&s=1">
-            <img src="https://wallpaperaccess.com/full/782556.jpg">
+            <img src="https://dynamic-media.tacdn.com/media/photo-o/2e/ee/20/18/caption.jpg?w=1400&h=1000&s=1" alt="Colorful neighborhood streets in Cape Town">
+            <img src="https://dynamic-media.tacdn.com/media/photo-o/2e/ee/1a/01/caption.jpg?w=1400&h=1000&s=1" alt="Waterfront view in Cape Town">
+            <img src="https://dynamic-media.tacdn.com/media/photo-o/2e/ef/4d/7b/caption.jpg?w=1400&h=1000&s=1" alt="Panoramic city and ocean view">
+            <img src="https://dynamic-media.tacdn.com/media/photo-o/2f/6f/08/55/caption.jpg?w=1400&h=1000&s=1" alt="Beach scene in Cape Town">
+            <img src="https://wallpaperaccess.com/full/782556.jpg" alt="Sunset over Cape Town skyline">
         </div>
     </section>
 
