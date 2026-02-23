@@ -32,6 +32,7 @@ This project is ideal as:
 * Quick facts section for travel inspiration
 * Image-based gallery of attractions
 * Responsive design (mobile-friendly)
+* Floating AI chat assistant with quick replies
 * Simple and modern UI
 
 ---
@@ -51,6 +52,7 @@ Cape-Town-Tourist/
 │
 ├── index.html
 ├── stylesheet.css
+├── script.js
 ├── Screenshot.png
 ├── LICENSE
 └── README.md

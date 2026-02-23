@@ -104,5 +104,25 @@
     <p>© 2026 Cape Town Blog</p>
 </footer>
 
+<button id="chat-toggle" class="chat-toggle" aria-label="Open AI chat" aria-expanded="false">💬</button>
+
+<section id="chat-widget" class="chat-widget" aria-label="AI chat assistant">
+    <header class="chat-header">
+        <div>
+            <h2>Cape Town AI Guide</h2>
+            <p>Ask for travel tips in real time</p>
+        </div>
+        <button id="chat-close" class="chat-close" aria-label="Close chat">×</button>
+    </header>
+
+    <div id="chat-body" class="chat-body"></div>
+
+    <form id="chat-form" class="chat-form">
+        <input id="chat-input" type="text" placeholder="Ask about Cape Town..." required>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
