@@ -27,10 +27,12 @@ This project is ideal as:
 
 ## Features
 
-* Highlighted tourist destinations in Cape Town
-* Blog-style content layout
-* Image-based sections for attractions
+* Hero section with clear call-to-action
+* Highlight cards for Cape Town landmarks
+* Quick facts section for travel inspiration
+* Image-based gallery of attractions
 * Responsive design (mobile-friendly)
+* Floating AI chat assistant with quick replies
 * Simple and modern UI
 
 ---
@@ -45,11 +47,12 @@ This project is ideal as:
 
 ## Project Structure
 
-```
+```text
 Cape-Town-Tourist/
 │
 ├── index.html
-├── style.css
+├── stylesheet.css
+├── script.js
 ├── Screenshot.png
 ├── LICENSE
 └── README.md
@@ -73,7 +76,6 @@ No additional setup is required.
 
 ## Future Improvements
 
-* Add a CMS or admin panel for blog posts
 * Integrate Google Maps for locations
 * Add search and filter functionality
 * Include booking or contact forms
